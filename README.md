@@ -128,7 +128,7 @@ mongodb+srv://name:<id>.<link>/
 ## CORS Configuration
 
 The backend is configured to accept requests from the frontend domain:
-- Frontend URL: https://menix.vercel.app
+- Frontend URL: <web Host Link>
 - CORS is enabled with credentials support
 
 ## Security Features
