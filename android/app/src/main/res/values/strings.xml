@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Menix</string>
+    <string name="title_activity_main">menix</string>
+    <string name="package_name">com.menix.app</string>
+    <string name="custom_url_scheme">com.menix.app</string>
+</resources>

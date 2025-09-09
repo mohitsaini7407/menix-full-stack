@@ -1,0 +1,12 @@
+{
+  "appId": "com.menix.app",
+  "appName": "menix",
+  "webDir": "dist",
+  "server": {
+    "url": "https://menix.vercel.app",
+    "cleartext": false,
+    "allowNavigation": [
+      "menix.vercel.app"
+    ]
+  }
+}
