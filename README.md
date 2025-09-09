@@ -5,7 +5,8 @@ A BGMI tournament application with separate frontend and backend deployments on 
 ## Project Structure
 
 ```
-├── src/                    # Frontend React source code
+├── android/               # build android application for webView
+├── src/                   # Frontend React source code
 ├── backend/               # Backend Express.js server
 ├── public/                # Static assets
 ├── dist/                  # Build output
@@ -16,15 +17,15 @@ A BGMI tournament application with separate frontend and backend deployments on 
 
 ## Deployment URLs
 
-- **Frontend**: https://menix.vercel.app
-- **Backend**: https://menix-backend.vercel.app
+- **Frontend**
+- **Backend**
 
 ## Environment Variables
 
 ### Frontend (.env)
 ```bash
-VITE_API_URL=https://menix-backend.vercel.app
-VITE_APP_NAME=Menix Tournament App
+VITE_API_URL=https
+VITE_APP_NAME
 VITE_APP_VERSION=1.0.0
 VITE_ENABLE_ANALYTICS=false
 VITE_ENABLE_DEBUG=false
@@ -32,8 +33,8 @@ VITE_ENABLE_DEBUG=false
 
 ### Backend (env.example)
 ```bash
-MONGO_URI=mongodb+srv://mohitsaini7407:mohit7407@menix.804cf5m.mongodb.net/
-FRONTEND_URL=https://menix.vercel.app
+MONGO_URI
+FRONTEND_URL
 PORT=5000
 NODE_ENV=production
 JWT_SECRET=your_jwt_secret_here
@@ -121,7 +122,7 @@ npm run deploy-backend
 
 The backend connects to MongoDB Atlas using the provided connection string:
 ```
-mongodb+srv://mohitsaini7407:mohit7407@menix.804cf5m.mongodb.net/
+mongodb+srv://name:<id>.<link>/
 ```
 
 ## CORS Configuration
