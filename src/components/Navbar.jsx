@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import logo from '../assets/logo.png';
+import tabLogo from '../assets/tab-logo.svg';
 import walletLogo from '../assets/wallet.png';
 import avt1 from '../assets/avatar/avt1.png';
 import avt2 from '../assets/avatar/avt2.png';
@@ -278,11 +278,11 @@ const Navbar = () => {
         </div>
 
         {/* Menix logo and name centered */}
-        <div className="navbar-logo" style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="navbar-logo" style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
           <img 
-            src={logo} 
+            src={tabLogo} 
             alt="Menix Logo" 
-            style={{height:48, width:48, objectFit:'contain', marginTop: '4px'}} 
+            style={{height:34, width:34, objectFit:'contain', marginTop: '2px'}} 
             className="flex-shrink-0"
             onError={(e) => {
               console.log('Logo failed to load, using fallback');
